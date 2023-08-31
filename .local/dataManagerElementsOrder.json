@@ -1,0 +1,92 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "MandiUrl&Sequence_1",
+        "SuperAppUrl&Sequence_1",
+        "Directory&Sequence_1",
+        "InputDateString&Sequence_2",
+        "InputDate&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence_Mandi_CropPrice_API.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "YesterdayDate&Sequence_2",
+        "ResponseMessage&Sequence_2",
+        "ProjectDirectory&Sequence_2",
+        "ServerResponse&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "SuperAppUrl",
+        "InDate"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence_Config.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "MandiWebsiteUrl",
+        "SuperAppUrl",
+        "Directory"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence_Wholesale.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Data&Sequence_2",
+        "ExtractDataTable&Sequence_2",
+        "YesterdayDate&Sequence_2",
+        "W2Cell&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "MandiWebsiteUrl",
+        "WholesaleDate"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence_Retail.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "MandiWebsiteUrl",
+        "RetailDate"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence_Move_File.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "Directory",
+        "InDate"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
